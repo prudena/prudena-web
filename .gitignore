@@ -1,0 +1,5 @@
+appsettings.json
+npm-debug.log
+
+bin/Debug/
+obj/
