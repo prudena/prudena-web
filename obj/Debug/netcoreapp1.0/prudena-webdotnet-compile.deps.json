@@ -31,7 +31,9 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
+          "System.ComponentModel": "4.0.1",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.0.1"
         },
         "compile": {
           "prudena-web.dll": {}
@@ -2756,7 +2758,9 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
+          "System.ComponentModel": "4.0.1",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.0.1"
         },
         "runtime": {
           "prudena-web.dll": {}
