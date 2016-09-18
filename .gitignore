@@ -3,3 +3,6 @@ npm-debug.log
 
 bin/Debug/
 obj/
+
+wwwroot/lib/
+wwwroot/.DS_Store
