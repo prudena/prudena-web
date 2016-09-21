@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Prudena.Web.Models.Valuation
 {
-    public class TickerAttributeType : BurnuliBaseModel
+    public class TickerAttributeType
     {
         public int ID { get; set; }
         public string Name { get; set; }

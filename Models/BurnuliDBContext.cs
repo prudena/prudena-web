@@ -26,10 +26,13 @@ namespace Prudena.Web.Models
         }
         */
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
+        public BurnuliDBContext(DbContextOptions<BurnuliDBContext> options)
+            : base(options)
+        { }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
             //optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["BloggingDatabase"].ConnectionString);
-        }
+        //}
         public DbSet<SimpleResidualEarningsModel> SimpleResidualEarningsModels { get; set; }
         public DbSet<VerySimpleResidualEarningsModel> VerySimpleResidualEarningsModels { get; set; }
 
@@ -106,8 +109,7 @@ namespace Prudena.Web.Models
         public DbSet<UserNewsItem> UserNewsItems { get; set; }
         public DbSet<NewsSource> NewsSources { get; set; }
         public DbSet<UserNewsSource> UserNewsSources { get; set; }
-        public DbSet<TaggedNewsItem> TaggedNewsItems { get; set; }
-
+        
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<BlogEntry> BlogEntries { get; set; }
         public DbSet<BlogEntryComment> Blogentrycomments { get; set; }

@@ -14,8 +14,14 @@ namespace Prudena.Web.Models
         Other
 
     }
-    public class Liability : BalanceSheetItem
+    public class Liability
     {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public double Weight { get; set; }
+        public string WeightText { get; set; }
+        public decimal Value { get; set; }
+        public string ValueText { get; set; }
         public BalanceSheet BalanceSheet { get; set; }
 
         public DateTime DateCreated { get; set; }

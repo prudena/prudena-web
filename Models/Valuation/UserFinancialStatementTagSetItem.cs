@@ -2,7 +2,7 @@
 namespace Prudena.Web.Models.Valuation
 {
 
-    public class UserFinancialStatementTagSetItem : BurnuliBaseModel
+    public class UserFinancialStatementTagSetItem
     {
         public int ID { get; set; }
         public SystemUser Owner { get; set; }

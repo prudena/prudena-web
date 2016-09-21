@@ -20,7 +20,7 @@ namespace Prudena.Web.Models.Valuation
     }
     
 
-    public class ResearchReport : BurnuliBaseModel
+    public class ResearchReport
     {
         #region Basic Information
         public int ID { get; set; }

@@ -55,7 +55,7 @@ namespace Prudena.Web.Models
      
     }
 
-    public class Trade : BurnuliBaseModel, IBurnuliEntity
+    public class Trade : IBurnuliEntity
     {
         public int ID { get; set; }
         public string Name { get; set; }

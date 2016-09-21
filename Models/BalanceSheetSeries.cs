@@ -5,7 +5,7 @@ using System.Linq;
 namespace Prudena.Web.Models
 {
    
-    public class BalanceSheetSeries : BurnuliBaseModel
+    public class BalanceSheetSeries 
     {
         public int ID { get; set; }
         public string Name { get; set; }

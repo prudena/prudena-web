@@ -3,7 +3,7 @@
 namespace Prudena.Web.Models.Valuation
 {
 
-    public class Forecast : BurnuliBaseModel
+    public class Forecast
     {
         public int ID { get; set; }
 

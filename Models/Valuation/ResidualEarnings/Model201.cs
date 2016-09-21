@@ -176,21 +176,33 @@ namespace Prudena.Web.Models.Valuation.ResidualEarnings
         public double LongTermPayoutRatioOptimistic { get; set; }
         public double LongTermPayoutRatioPessimistic { get; set; }
 
+        [NotMapped]
         public List<double> EarningsPath { get; set; }
+         [NotMapped]
         public List<double> EarningsPathOptimistic { get; set; }
-        public List<double> EarningsPathPessimistic { get; set; }
+         [NotMapped]
+       public List<double> EarningsPathPessimistic { get; set; }
 
-        public List<double> ResidualEarningsPath { get; set; }
-        public List<double> ResidualEarningsPathOptimistic { get; set; }
-        public List<double> ResidualEarningsPathPessimistic { get; set; }
+         [NotMapped]
+       public List<double> ResidualEarningsPath { get; set; }
+         [NotMapped]
+       public List<double> ResidualEarningsPathOptimistic { get; set; }
+         [NotMapped]
+       public List<double> ResidualEarningsPathPessimistic { get; set; }
 
-        public List<double> DividensPath { get; set; }
-        public List<double> DividensPathOptimistic { get; set; }
-        public List<double> DividensPathPessimistic { get; set; }
+         [NotMapped]
+       public List<double> DividensPath { get; set; }
+         [NotMapped]
+       public List<double> DividensPathOptimistic { get; set; }
+         [NotMapped]
+       public List<double> DividensPathPessimistic { get; set; }
 
-        public List<int> YearsPath { get; set; }
+         [NotMapped]
+       public List<int> YearsPath { get; set; }
 
-        public List<int> YearsPathOptimistic { get; set; }
+         [NotMapped]
+       public List<int> YearsPathOptimistic { get; set; }
+        [NotMapped]
         public List<int> YearsPathPessimistic { get; set; }
 
         public int LongTermYears { get; set; }

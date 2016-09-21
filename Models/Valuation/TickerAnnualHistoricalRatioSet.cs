@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Prudena.Web.Models.Valuation
 {
-    public class TickerAnnualHistoricalRatioSet : BurnuliBaseModel
+    public class TickerAnnualHistoricalRatioSet
     {
         public int ID { get; set; }
         public Ticker Ticker { get; set; }

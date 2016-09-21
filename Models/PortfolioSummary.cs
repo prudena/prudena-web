@@ -8,8 +8,7 @@ namespace Prudena.Web.Models
     [DataContract(Name = "PortfolioSummary")]
     public class PortfolioSummary 
     {
-        BurnuliDBContext db = new BurnuliDBContext();
-
+        
         [DataMember(Name = "PortfolioId")]
         public int PortfolioId { get; set; }
 

@@ -213,7 +213,6 @@
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/BalanceSheet.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/BalanceSheetItem.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/BalanceSheetSeries.cs
-/Users/charlesostrout/Documents/prudena/prudena-web/Models/BurnuliBaseModel.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/BurnuliConstants.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/BurnuliDBContext.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/BurnuliSecurity.cs
@@ -249,7 +248,6 @@
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/StoredImage.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/StoredReport.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/SystemUser.cs
-/Users/charlesostrout/Documents/prudena/prudena-web/Models/TaggedNewsItem.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/Ticker.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/Topic.cs
 /Users/charlesostrout/Documents/prudena/prudena-web/Models/Trade.cs

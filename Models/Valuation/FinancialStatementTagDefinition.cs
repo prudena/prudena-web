@@ -147,7 +147,7 @@ namespace Prudena.Web.Models.Valuation
 
     }
 
-    public class FinancialStatementTagDefinition : BurnuliBaseModel
+    public class FinancialStatementTagDefinition
     {
         public int ID { get; set; }
         public string TagName { get; set; }

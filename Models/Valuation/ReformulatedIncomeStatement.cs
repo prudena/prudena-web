@@ -1,6 +1,6 @@
 ﻿namespace Prudena.Web.Models.Valuation
 {
-    public class ReformulatedIncomeStatement: BurnuliBaseModel
+    public class ReformulatedIncomeStatement
     {
         public int ID { get; set; }
         public decimal OperatingExpense { get; set; }

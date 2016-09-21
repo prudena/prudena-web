@@ -26,7 +26,7 @@ namespace Prudena.Web.Models.Valuation
 
     }
 
-    public class Schema : BurnuliBaseModel
+    public class Schema
     {
         public int ID { get; set; }
         public Ticker Ticker { get; set; }
