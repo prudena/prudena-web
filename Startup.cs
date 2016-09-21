@@ -32,10 +32,8 @@ namespace Prudena.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string testConfig = Configuration["ConnectionStrings:DefaultConnection"];
-            
             services.AddDbContext<BurnuliDBContext>(options =>
-                options.UseSqlServer(testConfig));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             
             // Add framework services.
             services.AddMvc();
