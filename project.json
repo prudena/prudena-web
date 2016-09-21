@@ -28,7 +28,8 @@
             "version": "1.0.0-preview2-final"
         },
     "System.ComponentModel":"4.0.1",
-    "Microsoft.AspNetCore.Mvc.DataAnnotations":"1.0.1"
+    "Microsoft.AspNetCore.Mvc.DataAnnotations":"1.0.1",
+    "Microsoft.Extensions.Configuration.UserSecrets":"1.0.0"
   },
 
   "tools": {
@@ -36,7 +37,8 @@
     "Microsoft.AspNetCore.Razor.Tools": "1.0.0-preview2-final",
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview2-final",
     "Microsoft.EntityFrameworkCore.Tools": "1.0.0-preview2-final",
-    "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
+    "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final",
+    "Microsoft.Extensions.SecretManager.Tools": "1.0.0-preview2-final"
   },
 
   "frameworks": {
@@ -77,5 +79,6 @@
 
   "tooling": {
     "defaultNamespace": "Prudena.Web"
-  }
+  },
+  "userSecretsId": "prudena-web-6016f289-502d-47e7-812a-a40f63faa7d3"
 }

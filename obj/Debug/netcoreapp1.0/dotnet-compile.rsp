@@ -76,6 +76,7 @@
 --reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0/lib/netstandard1.3/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 --reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.Configuration.FileExtensions/1.0.0/lib/netstandard1.3/Microsoft.Extensions.Configuration.FileExtensions.dll
 --reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.Configuration.Json/1.0.0/lib/netstandard1.3/Microsoft.Extensions.Configuration.Json.dll
+--reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.Configuration.UserSecrets/1.0.0/lib/netstandard1.3/Microsoft.Extensions.Configuration.UserSecrets.dll
 --reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.DependencyInjection/1.0.0/lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.dll
 --reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.DependencyInjection.Abstractions/1.0.0/lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 --reference:/Users/charlesostrout/.nuget/packages/Microsoft.Extensions.DependencyModel/1.0.0/lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll
