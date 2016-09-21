@@ -1,0 +1,10 @@
+appsettings.json
+npm-debug.log
+
+bin/Debug/
+obj/
+
+wwwroot/lib/
+wwwroot/.DS_Store
+
+Ms. Cabrera and Ms. Dragone
